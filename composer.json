@@ -1,0 +1,19 @@
+{
+    "name": "openswoole/example-rpc-service",
+    "description": "Example OpenSwoole RPC project",
+    "require": {
+        "openswoole/grpc": "^22.1",
+        "openswoole/core": "^22.1",
+        "google/protobuf": "^4.28"
+    },
+    "suggest": {
+        "ext-openswoole": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
